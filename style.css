@@ -1,0 +1,89 @@
+style.css
+/* Cores usadas na página */
+:root {
+  --vermelho: #b30000;
+  --cinza: #3a3a3a;
+  --fundo: #f4f4f4;
+}
+ 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--fundo);
+  color: var(--cinza);
+}
+ 
+/* Barra do topo */
+.topo {
+  background: var(--vermelho);
+  color: white;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+.fatec {
+  font-size: 28px;
+  font-weight: bold;
+}
+ 
+.cidade {
+  margin-left: 10px;
+  font-size: 14px;
+}
+ 
+.topo nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+ 
+/* Área principal */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+}
+ 
+.destaque {
+  text-align: center;
+  padding: 48px 16px;
+}
+ 
+.destaque h1 {
+  font-size: 48px;
+  color: var(--vermelho);
+  margin: 0 0 12px 0;
+}
+ 
+.nome {
+  font-size: 22px;
+}
+ 
+/* Caixas de conteúdo */
+.cartao {
+  background: white;
+  border-radius: 8px;
+  padding: 16px 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+ 
+.cartao h2 {
+  color: var(--vermelho);
+}
+ 
+/* Rodapé */
+.rodape {
+  background: var(--cinza);
+  color: white;
+  text-align: center;
+  padding: 16px;
+  font-size: 14px;
+}
+ 
+.aviso {
+  font-size: 12px;
+  opacity: 0.8;
+}
